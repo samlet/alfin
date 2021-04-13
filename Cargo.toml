@@ -1,0 +1,17 @@
+[package]
+name = "alfin"
+version = "0.1.0"
+authors = ["Samlet Wu <xiaofei.wu@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "alfin"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.13"
+features = ["extension-module"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
